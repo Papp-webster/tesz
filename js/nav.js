@@ -1,0 +1,1 @@
+$(document).ready(function(){var a=function(){$(".navbar-nav").css("max-height",document.documentElement.clientHeight-150)};a(),$(window).resize(function(){a()}),$(".navbar .navbar-toggler").on("click",function(){a()}),$(".navbar-toggler").on("click",function(){$(".mobileMenu").toggleClass("open")})}),$(".navbar-toggler").click(function(){$(this).toggleClass("active")});

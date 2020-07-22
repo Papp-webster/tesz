@@ -1,0 +1,5 @@
+# Options +FollowSymLinks
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^msztesz.hu [NC]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.msztesz.hu/$1 [L,R=301]
